@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+
+    color: #333;
+}
+/*    background-color: #87CEEB; /* Azul claro de fondo */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #689ccc; /* Azul oscuro */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.photo-section {
+    flex: 1;
+    text-align: center;
+
+}
+
+.profile-photo {
+    padding-right: 40px;
+    width: 75px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.name-section {
+    flex: 2;
+    background-color: #0e4b85; /* Azul oscuro */
+    
+}
+
+.name-section h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.name-section h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name-section p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.contact-section {
+    flex: 2;
+    
+    font-size: 14px;
+}
+
+.contact-section a{
+    color: white;
+}
+
+.contact-section p {
+    margin: 5px 0;
+}
+
+.icon {
+    width: 16px;
+    height: 14px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+.rating{
+    width: 50px;
+    height: 20px;
+}
+
+
+.logoFeina1{
+    vertical-align:text-bottom ;
+    height: 60px;
+}
